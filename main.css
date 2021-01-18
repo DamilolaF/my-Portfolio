@@ -34,6 +34,7 @@ nav
     -webkit-flex:3;
     -ms-flex: 3;
     flex: 3;
+    opacity: 0.8;
 }
 ul, nav{
     display: -webkit-box;
@@ -168,10 +169,8 @@ header h2{
 
   }
   .home{
-    font-size: 40px;
-  }
-  .home__data{
-    align-self: flex-end;
+    font-size: 30px;
+    align-content: flex-end;
   }
 }
 /* media queries for tablet*/
@@ -217,13 +216,14 @@ header h2{
 */
 .home{
   font: bold 60px 'Open Sans', sans-serif;
-
+  display: flex;
   align-self: center;
+  justify-content: center;
   margin-bottom: 20px;
-  color:whitesmoke;
+  color: rgb(92, 47, 92);
 }
 
-.home__data{
+/*.home__data{
   align-self: center;
 }
 
@@ -263,6 +263,7 @@ h3.title{
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding: 5% 0;
+  
 
 }
 .column{
@@ -271,6 +272,7 @@ h3.title{
     -ms-flex: 1;
     flex:1; 
     border: 2px solid lavender;
+    margin: 10px;
 }
 .content{
     margin-top: 20px;
@@ -289,7 +291,7 @@ h3.title{
     margin-bottom: 20px;
     background-color: lavender;
   }
-.contact {
+.contact{
  background: url('image/flower5.jfif'); 
  width: 100%;
  background-size: cover;;
@@ -327,7 +329,7 @@ color: purple;
 }
 
 footer{
-    background-color: rebeccapurple;
+    background-color: rgb(70, 25, 114);
 	font-size: 14px;
 	color: grey;
     margin-bottom: 10px;
@@ -335,7 +337,8 @@ footer{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 60px 0;
+  padding: 60px 0;
+  opacity: 0.8;
 }
 
 /*footer p a{
