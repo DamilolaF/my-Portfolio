@@ -236,7 +236,9 @@ h3.title{
 .about{
     row-gap: 2rem;
     text-align: center;
-    background-color: lavender;
+    color: rgb(83, 3, 83);
+    background-color: rgb(189, 189, 226);
+    opacity: 0.9;
   }
  
 
