@@ -123,6 +123,7 @@ section{
     color: var(--second-color);
     font-size: 2.5rem;
     cursor: pointer;
+    overflow: hidden;
   }
  .bx{  font-weight: normal;
   font-style: normal;
@@ -130,7 +131,6 @@ section{
   line-height: 1;
   display: inline-block;
   text-transform: none;
-  speak: none;
   -webkit-font-smoothing: antialiased;
   font-family: boxicons !important;
  }
@@ -169,8 +169,8 @@ header h2{
 
   }
   .home{
-    font-size: 30px;
-    align-content: flex-end;
+    font-size: 20px;
+    align-self: flex-end;
   }
 }
 /* media queries for tablet*/
@@ -197,10 +197,7 @@ header h2{
      padding: 5px;
    }
    .home{
-    height: 100vh;
-    font-size: 1.5em;;
-  }
-  .home__data{
+    font-size: 20px;
     align-self: flex-end;
   }
    .row{
@@ -217,8 +214,7 @@ header h2{
 .home{
   font: bold 60px 'Open Sans', sans-serif;
   display: flex;
-  align-self: center;
-  justify-content: center;
+  align-self: flex-end;
   margin-bottom: 20px;
   color: rgb(92, 47, 92);
 }
