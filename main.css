@@ -17,7 +17,7 @@ h2{
 .logo{
  color: #fff;
  flex: 1;
- font-size: 60px;
+ font-size: 50px;
  padding: 15px;
  text-transform: uppercase;
 }
@@ -63,12 +63,12 @@ ul, nav{
 }
 
 a{  
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
 	text-decoration: none;
 	color: inherit;
   cursor: pointer;
-	opacity: 0.7;
+  opacity: 0.7;
 }
 a:hover{
 	opacity: 1;
@@ -78,34 +78,10 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding: 125px 100px;
 }
 
-/*@media (max-width: 1000px){
 
-	section{
-		padding: 100px 50px;
-	}
-
-}
-/
-@media (max-width: 600px){
-
-	section{
-		padding: 80px 30px;
-    }
-*/
-
-/*.bd-grid{
-        width:100%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-column-gap: 2rem;
-        width: calc(100% - 2rem);
-        margin-left: var(--mb-2);
-        margin-right: var(--mb-2);
-      }
 
 /*Header section*/
 .top-header{
@@ -125,7 +101,8 @@ section{
     cursor: pointer;
     overflow: hidden;
   }
- .bx{  font-weight: normal;
+ .bx{  
+  font-weight: normal;
   font-style: normal;
   font-variant: normal;
   line-height: 1;
@@ -137,6 +114,21 @@ section{
 header h2{
 	font-family: 'Quicksand', sans-serif;
 }
+
+/*Home section
+*/
+.home{
+  font: bold 60px 'Open Sans', sans-serif;
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  color: rgb(92, 47, 92);
+}
+
+/*.home__data{
+  align-self: center;
+}
+
 /*media queries for mobile*/
 @media all and (max-width:500px){
  .top-header {
@@ -169,8 +161,9 @@ header h2{
 
   }
   .home{
-    font-size: 20px;
-    align-self: flex-end;
+    font-size: 40px;
+    align-self: flex-start;
+    
   }
 }
 /* media queries for tablet*/
@@ -197,8 +190,9 @@ header h2{
      padding: 5px;
    }
    .home{
-    font-size: 20px;
+    font-size: 40px;
     align-self: flex-end;
+    margin-top: 20px;
   }
    .row{
      -webkit-box-orient: vertical;
@@ -209,19 +203,6 @@ header h2{
    }
  }
 
-/*Home section
-*/
-.home{
-  font: bold 60px 'Open Sans', sans-serif;
-  display: flex;
-  align-self: flex-end;
-  margin-bottom: 20px;
-  color: rgb(92, 47, 92);
-}
-
-/*.home__data{
-  align-self: center;
-}
 
 
 /*about */
